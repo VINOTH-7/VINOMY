@@ -3,18 +3,18 @@
 int fun(int);
 void main()
 {
-int a,b;
+int X,Y;
 clrscr();
 printf("Enter the number:");
-scanf("%d",&a);
-b=fun(a);
-printf("Factorial of %d:%d",a,b);
+scanf("%d",&X);
+Y=fun(X);
+printf("Factorial of %d:%d",X,Y);
 getch();
 }
-int fun(int x)
+int fun(int a)
 {
-if(x>0)
-return x*fun(x-1);
+if(a>0)
+return a*fun(a-1);
 else
 return 1;
 }
