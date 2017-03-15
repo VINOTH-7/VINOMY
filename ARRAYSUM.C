@@ -12,7 +12,7 @@ scanf("%d",&target);
 for(i=0;i<n;i++)
 {
 sum=0;
-for(j=i+1;j<n;j++)
+for(j=0;j<n;j++)
 {
 sum=a[i]+a[j];
 if(sum==target){
