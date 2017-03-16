@@ -15,6 +15,8 @@ int mini(int a ,int k)
     int b,c;
     if(k<=0)
 return a;
+    if(a==0)
+        return 0;
 if(k>0)
 {
     b=mini(a/10,k);
