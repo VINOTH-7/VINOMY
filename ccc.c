@@ -2,7 +2,7 @@
 int main()
 {
 int i,sum=0;
-for(i=10;i>-5;i--)
+for(i=10;i<15;i++)
 {
 while(i<1)
 sum=sum+i;
